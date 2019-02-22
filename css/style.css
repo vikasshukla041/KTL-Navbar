@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(236, 233, 233);
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+.heading {
+    display: block;
+    text-align: center;
+    background:#4A00E0;
+    border-bottom: 1px solid grey;
+    color: white;
+}
+.header {
+    display: flex;
+    background: #8e2de2;
+    background: linear-gradient(to top, #8e2de2, #4a00e0);
+    padding: 30px 0px;
+    color: white;
+}
+.container {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.paragraph, .list-items {
+    width: 50%;
+}
+li {
+    list-style-type: none;
+}
+.list-items li::before {
+  content: "\25AA";
+  color: rgb(7, 166, 187); 
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+.new-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background: #8E2DE2;
+    line-height: 45px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.new-list li {
+    width: 250px;
+}
+.new-list li.active {
+    background: rgb(236, 233, 233);
+    color: black;
+    border-radius: 10px 10px 0px 0px;
+}
+.content {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.text-button-area {
+    width: 46%;
+}
+.tags {
+    width: 30%;
+    background: rgb(201, 198, 198);
+    margin: 20px 0px 0px 0px;
+}
+ .what p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    background: white;
+    margin: 0px;
+    align-items: center;
+}
+.styling, .other {
+    padding: 0px 5px;
+}
+.text-area {
+    margin: 20px 0px;
+    border: 1px dotted grey;
+}
+.text-area::placeholder {
+    font-size: 20px;
+    opacity: 0.5;
+}
+/* .buttons {
+    padding: 10px 5px;
+    border: none;
+} */
+.buttons {
+    text-align: right;
+}
+.button-one {
+    background: rgb(218, 215, 215);
+    color: rgba(53, 144, 219, 0.986);
+    border: none;
+    padding: 10px 5px;
+}
+.button-two {
+    background: rgb(7, 168, 173);
+    color: white;
+    border: none;
+    padding: 10px 5px;
+}
+.drop-downtwo {
+    width: 100%;
+    height: 25px;
+    background: grey;
+    /* padding-bottom: 0px;
+    margin-bottom: 0px; 
+     display: flex; 
+     justify-content: center;
+     align-items: center; */
+}
+.drop-downtwo p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.styling span {
+    color: blue;
+}
+
+.other p {
+    display: inline-block;
+    background: rgb(179, 176, 176);
+    /* line-height: 10px; */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background: white;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    
+}
+/* .footer p {
+    text-align: center;
+    padding-top: 25px;
+} */
